@@ -64,7 +64,7 @@
         }
 
         .action-btn:hover {
-            background-color: #59ceef;
+            background-color: #d7ff51;
         }
 
         .title {
@@ -83,7 +83,8 @@
         }
 
         .select {
-            background-color: #94E6FC;
+/*             background-color: #94E6FC; */
+                background-color: #d7ff51;
             color: black;
             display: flex;
             justify-content: space-between;
