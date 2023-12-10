@@ -5,14 +5,14 @@
             font-family: 'Roboto', sans-serif;
         }
 
-        .text-container {
+        .main-cover {
             display: flex;
             justify-content: space-around;
             height: calc(100vh - 20px);
             width: calc(100vw - 20px);
         }
 
-        #undo-redo {
+        #flow-control-div {
             width: 20%;
             margin-top: 50px;
             display: flex;
@@ -20,7 +20,7 @@
             align-items: center;
         }
 
-        #white-area {
+        #editable {
             background-color: white;
             width: 60%;
             margin: 0px 30px;
@@ -39,7 +39,7 @@
             user-select: none;
         }
 
-        #text-editing {
+        #controls-div {
             width: 20%;
             margin-top: 50px;
             display: flex;
