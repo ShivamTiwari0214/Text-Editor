@@ -49,8 +49,7 @@
         }
 
         .action-btn {
-/*             background-color: #94E6FC; */
-              background-color: #d7ff51;
+            background-color: #fffa56;
             height: 56px;
             width: 240px;
             border-radius: 10px;
@@ -82,8 +81,7 @@
         }
 
         .select {
-/*             background-color: #94E6FC; */
-                background-color: #d7ff51;
+/*          background-color: #fffa56;
             color: black;
             display: flex;
             justify-content: space-between;
@@ -111,7 +109,7 @@
         .menu {
             list-style: none;
             padding: 0.2em 0.5em;
-            background-color: #d7ff51;
+            background-color: #fffa56;
             border: 2px solid #2C3131;
             box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
             border-radius: 10px;
@@ -137,7 +135,7 @@
        
 
         .active {
-            background-color: #d7ff51;
+            background-color: #fffa56;
         }
 
         .menu-open {
