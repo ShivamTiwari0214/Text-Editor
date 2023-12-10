@@ -30,7 +30,7 @@
 
                 function dragMove(moveEvent) {
                     textElement.style.left = Math.min(editableArea.offsetWidth - textElement.offsetWidth,
-                        Math.max(0, moveEvent.clientX - offsetX)) + 'px';
+                        Math.max(0, moveEvent.clientX - offsetX))-300 + 'px';
                     textElement.style.top = Math.min(editableArea.offsetHeight - textElement.offsetHeight,
                         Math.max(0, moveEvent.clientY - offsetY)) + 'px';
                 }
