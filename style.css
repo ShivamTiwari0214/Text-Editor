@@ -49,7 +49,7 @@
         }
 
         .action-btn {
-            background-color: #94E6FC;
+            background-color: #dcd741;
             height: 56px;
             width: 240px;
             border-radius: 10px;
@@ -64,7 +64,7 @@
         }
 
         .action-btn:hover {
-            background-color: #59ceef;
+            background-color: #fffa6b;
         }
 
         .title {
@@ -83,7 +83,7 @@
         }
 
         .select {
-            background-color: #94E6FC;
+            background-color: #dcd741;
             color: black;
             display: flex;
             justify-content: space-between;
@@ -95,7 +95,7 @@
         }
 
         .select:hover {
-            background-color: #59ceef;
+            background-color: #fffa6b;
         }
 
         .caret {
@@ -114,7 +114,7 @@
         .menu {
             list-style: none;
             padding: 0.2em 0.5em;
-            background-color: #94E6FC;
+            background-color: #fffa6b;
             border: 2px solid #2C3131;
             box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
             border-radius: 10px;
@@ -138,11 +138,11 @@
         }
 
         .menu li:hover {
-            background-color: #4ebcdb;
+            background-color: #dcd741;
         }
 
         .active {
-            background-color: #4ebcdb;
+            background-color: #fffa6b;
         }
 
         .menu-open {
