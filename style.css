@@ -49,7 +49,8 @@
         }
 
         .action-btn {
-            background-color: #94E6FC;
+/*             background-color: #94E6FC; */
+              background-color: #d7ff51;
             height: 56px;
             width: 240px;
             border-radius: 10px;
