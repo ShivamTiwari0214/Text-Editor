@@ -134,9 +134,7 @@
             cursor: pointer;
         }
 
-        .menu li:hover {
-            background-color: #4ebcdb;
-        }
+       
 
         .active {
             background-color: #4ebcdb;
