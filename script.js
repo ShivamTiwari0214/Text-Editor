@@ -28,11 +28,23 @@
                 let offsetX = e.clientX - textElement.getBoundingClientRect().left;
                 let offsetY = e.clientY - textElement.getBoundingClientRect().top;
 
+                // function dragMove(moveEvent) {
+                //     textElement.style.left = Math.min(editableArea.offsetWidth - textElement.offsetWidth,
+                //         Math.max(0, moveEvent.clientX - offsetX))-300 + 'px';
+                //     textElement.style.top = Math.min(editableArea.offsetHeight - textElement.offsetHeight,
+                //         Math.max(0, moveEvent.clientY - offsetY)) + 'px';
+                // }
                 function dragMove(moveEvent) {
-                    textElement.style.left = Math.min(editableArea.offsetWidth - textElement.offsetWidth,
-                        Math.max(0, moveEvent.clientX - offsetX))-300 + 'px';
-                    textElement.style.top = Math.min(editableArea.offsetHeight - textElement.offsetHeight,
-                        Math.max(0, moveEvent.clientY - offsetY)) + 'px';
+                    let x = moveEvent.clientX - offsetX;
+                    let y = moveEvent.clientY - offsetY
+        
+                    const containerRect = editableArea.getBoundingClientRect();
+        
+                    if (x >= containerRect.left && x + textElement.clientWidth <= containerRect.right &&
+                        y >= containerRect.top && y + textElement.clientHeight <= containerRect.bottom) {
+                        textElement.style.left = x -340 + 'px';
+                        textElement.style.top = y -8 + 'px';
+                    }
                 }
 
                 function dragEnd() {
