@@ -64,9 +64,7 @@
             cursor: pointer;
         }
 
-        .action-btn:hover {
-            background-color: #d7ff51;
-        }
+        .
 
         .title {
             color: white;
@@ -96,9 +94,6 @@
             transition: 0.3s;
         }
 
-        .select:hover {
-            background-color: #59ceef;
-        }
 
         .caret {
             width: 0;
