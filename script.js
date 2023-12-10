@@ -1,7 +1,7 @@
 // hint : es 6 
 
         let zIndexCounter = 1;
-
+        
         const addText = () => {
             let editableArea = document.getElementById("editable");
             const textSize = document.getElementById('size').value + 'px';
@@ -42,8 +42,8 @@
         
                     if (x >= containerRect.left && x + textElement.clientWidth <= containerRect.right &&
                         y >= containerRect.top && y + textElement.clientHeight <= containerRect.bottom) {
-                        textElement.style.left = x -340 + 'px';
-                        textElement.style.top = y -8 + 'px';
+                        textElement.style.left = x -100 + 'px';
+                        textElement.style.top = y -10 + 'px';
                     }
                 }
 
