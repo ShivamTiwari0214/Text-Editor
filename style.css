@@ -49,7 +49,7 @@
         }
 
         .action-btn {
-            background-color: #fffa56;
+            background-color: #94E6FC;
             height: 56px;
             width: 240px;
             border-radius: 10px;
@@ -63,7 +63,9 @@
             cursor: pointer;
         }
 
-        .
+        .action-btn:hover {
+            background-color: #59ceef;
+        }
 
         .title {
             color: white;
@@ -81,7 +83,7 @@
         }
 
         .select {
-/*          background-color: #fffa56;
+            background-color: #94E6FC;
             color: black;
             display: flex;
             justify-content: space-between;
@@ -92,6 +94,9 @@
             transition: 0.3s;
         }
 
+        .select:hover {
+            background-color: #59ceef;
+        }
 
         .caret {
             width: 0;
@@ -109,7 +114,7 @@
         .menu {
             list-style: none;
             padding: 0.2em 0.5em;
-            background-color: #fffa56;
+            background-color: #94E6FC;
             border: 2px solid #2C3131;
             box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
             border-radius: 10px;
@@ -132,10 +137,12 @@
             cursor: pointer;
         }
 
-       
+        .menu li:hover {
+            background-color: #4ebcdb;
+        }
 
         .active {
-            background-color: #fffa56;
+            background-color: #4ebcdb;
         }
 
         .menu-open {
